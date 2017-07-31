@@ -11,3 +11,5 @@
 
 [Урок 10](MarinaRopak.github.io/lesson_11/ "Моя готовая домашка") - Строймонтаж 
 
+[Урок 13.1](MarinaRopak.github.io/lesson_13_1/src/ "Моя готовая домашка") - Практика. Часть 1.
+
