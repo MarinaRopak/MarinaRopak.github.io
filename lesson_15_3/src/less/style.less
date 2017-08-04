@@ -139,7 +139,7 @@ button, input, a {
 			border: 1px solid @border-input;
 			padding: 1.7rem;
 		}
-		Подписи к полям
+		/* Подписи к полям */
 		label {
 			position: absolute;
 			display: inline-block;
@@ -209,11 +209,41 @@ button, input, a {
 @media (max-widtg: 767px) {
 	.main {
 		background-position: top left;
+		.logo {
+			text-align: center;
+		}
+		&-title {
+			h1 {
+				font-size: 18px;
+			}
+			p {
+				font-size: 18px;
+			}
+			span {
+				display: inline-block;
+				padding: 2rem 4rem;
+				font-size: 1.4rem;
+				color: @light;
+				background-color: @icons-color;
+				text-align: center;
+				strong {
+					font-size: 2rem;
+					.bold();
+				}
+			}
+		}
+		&-trigger {
+			font-size: 18px;
+		}
+		&-form {
+			text-align: center;
+			margin-top: 3rem;
+		}
 	}
 	.header {
 		text-align: center;
 	}
-	.wrap-block {
+	.wrap {
 		text-align: center;
 	}
 }

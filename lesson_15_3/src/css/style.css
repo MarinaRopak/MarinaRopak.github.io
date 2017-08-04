@@ -100,6 +100,7 @@ section {
   text-align: center;
   /* Заголовок формы */
   /* Поле для ввода	*/
+  /* Подписи к полям */
   /* Кнопка отправить заявку */
   /* Подпись под кнопкой */
 }
@@ -117,7 +118,7 @@ section {
   border: 1px solid #dddddd;
   padding: 1.7rem;
 }
-.main-form Подписи к полям label {
+.main-form label {
   position: absolute;
   display: inline-block;
   left: 50%;
@@ -180,10 +181,38 @@ section {
   .main {
     background-position: top left;
   }
+  .main .logo {
+    text-align: center;
+  }
+  .main-title h1 {
+    font-size: 18px;
+  }
+  .main-title p {
+    font-size: 18px;
+  }
+  .main-title span {
+    display: inline-block;
+    padding: 2rem 4rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #70c849;
+    text-align: center;
+  }
+  .main-title span strong {
+    font-size: 2rem;
+    font-family: 'ProximaNova-Bold', sans-serif;
+  }
+  .main-trigger {
+    font-size: 18px;
+  }
+  .main-form {
+    text-align: center;
+    margin-top: 3rem;
+  }
   .header {
     text-align: center;
   }
-  .wrap-block {
+  .wrap {
     text-align: center;
   }
 }
