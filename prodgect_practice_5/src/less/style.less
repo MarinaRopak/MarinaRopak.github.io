@@ -71,10 +71,18 @@ button, input, a, textarea {
  	padding: 10rem 0;
  }
  .section-header {
+ 	&-light {
+ 		color: @light;
+ 		margin-top: 0;
+ 	}
+ 	h2 {
+		.bold();
+		font-size: 3.6rem;
+ 	}
+ 	p {
+ 		font-size: 1.4rem;
+ 	}
  	margin: 2rem 0 10rem;
- 	.bold();
- 	font-size: 2
- 	3.6rem;
  	text-align: center;
  }
 
@@ -244,6 +252,55 @@ button, input, a, textarea {
 	right: 0;
 	background: url(../img/right-arrow.svg) center no-repeat;
 	background-size: 70%;
+}
+
+
+// секция с ценами
+.price {
+	background: @icons-color url(../img/prices/prices-bg.jpg) center;
+	&-header-btn {
+		margin-top: 2.5rem;
+	}
+	// Карточки с тарифами
+	&-block {
+		padding: 1rem 3rem 4rem;
+		min-height: 50rem;
+		background-color: @light;
+		box-shadow: 7px 12px 21px 0 rgba(0,0,0,0.17);
+		text-align: center;
+		h4 {
+			margin: 3rem 0;
+			font-size: 1.9rem;
+			.bold();
+		}
+		img {
+			display: inline-block;
+			margin-bottom: 2rem;
+		}
+	}
+	&-tag {
+		display: block;
+		margin-bottom: 2rem;
+		font-size: 1.9rem;
+		.bold();
+	}
+	&-list {
+		padding: 0;
+		list-style: none;
+		min-height: 14rem;
+		font-size: 1.6rem;
+		line-height: 1.6;
+		li {
+			&:before {
+				content: '';
+				display: inline-block;
+				width: 2.4rem;
+				height: 2.4rem;
+				background: url(../img/prices/check.svg);
+				vertical-align: middle;
+			}
+		}
+	}
 }
 
 

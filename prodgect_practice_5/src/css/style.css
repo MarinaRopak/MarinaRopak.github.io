@@ -51,10 +51,18 @@ section {
 }
 .section-header {
   margin: 2rem 0 10rem;
-  font-family: 'ProximaNova-Bold', sans-serif;
-  font-size: 2
- 	3.6rem;
   text-align: center;
+}
+.section-header-light {
+  color: #ffffff;
+  margin-top: 0;
+}
+.section-header h2 {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 3.6rem;
+}
+.section-header p {
+  font-size: 1.4rem;
 }
 /* main */
 .main {
@@ -215,6 +223,50 @@ section {
   right: 0;
   background: url(../img/right-arrow.svg) center no-repeat;
   background-size: 70%;
+}
+.price {
+  background: #70c849 url(../img/prices/prices-bg.jpg) center;
+}
+.price-header-btn {
+  margin-top: 2.5rem;
+}
+.price-block {
+  padding: 1rem 3rem 4rem;
+  min-height: 50rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 7px 12px 21px 0 rgba(0, 0, 0, 0.17);
+          box-shadow: 7px 12px 21px 0 rgba(0, 0, 0, 0.17);
+  text-align: center;
+}
+.price-block h4 {
+  margin: 3rem 0;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.price-block img {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.price-tag {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.price-list {
+  padding: 0;
+  list-style: none;
+  min-height: 14rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.price-list li:before {
+  content: '';
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url(../img/prices/check.svg);
+  vertical-align: middle;
 }
 .popup {
   display: none;
