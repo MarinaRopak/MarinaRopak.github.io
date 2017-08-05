@@ -1,0 +1,30 @@
+.btn-success {
+	display: block;
+	margin: 0 auto;
+	width: 30rem;
+	height: 6rem;
+}
+.modal-header {
+	background-color: #372a36;
+}
+.close {
+	color: #fff;
+}
+.modal-title {
+	color: #ffffff;
+	font-weight: 900;
+}
+p {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+}
+.btn-default {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+.btn-primary {
+	background-color: red;
+	font-weight: bold;
+}
